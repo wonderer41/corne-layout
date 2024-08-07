@@ -20,10 +20,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q               &kp W             &kp F           &kp P    &kp B            &kp J            &kp L      &kp U            &kp Y              &kp SEMICOLON        &trans
-&trans  &mt LEFT_CONTROL A  &mt LEFT_SHIFT R  &mt LEFT_ALT S  &kp T    &mt LWIN G       &mt RIGHT_WIN M  &kp N      &mt RIGHT_ALT E  &mt RIGHT_SHIFT I  &mt RIGHT_CONTROL O  &trans
-&trans  &kp Z               &kp X             &kp C           &kp D    &kp V            &kp K            &kp H      &kp COMMA        &kp DOT            &mt DEL FSLH         &trans
-                                              &mo 2           &kp TAB  &kp BACKSPACE    &kp SPACE        &kp ENTER  &mo 1
+&trans  &kp Q  &kp W  &kp F           &kp P             &kp B            &kp J      &kp L      &kp U      &kp Y    &kp SEMICOLON  &trans
+&trans  &kp A  &kp R  &kp S           &kp T             &kp G            &kp M      &kp N      &kp E      &kp I    &kp O          &trans
+&trans  &kp Z  &kp X  &kp C           &kp D             &kp V            &kp K      &kp H      &kp COMMA  &kp DOT  &kp SLASH      &trans
+                      &kp LEFT_SHIFT  &mt LEFT_ALT TAB  &kp BACKSPACE    &kp SPACE  &kp ENTER  &mo 1
             >;
         };
 
@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp BACKSLASH      &kp PIPE               &kp ASTERISK    &kp EQUAL             &kp MINUS           &kp PAGE_UP    &trans     &kp UP_ARROW  &trans     &trans  &trans
-&trans  &kp RIGHT_BRACE    &kp DOUBLE_QUOTES      &kp SEMICOLON   &kp LEFT_BRACE        &kp FSLH            &kp PAGE_DOWN  &kp LEFT   &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp SQT         &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET    &trans         &trans     &trans        &trans     &trans  &trans
-                                                  &kp LEFT_SHIFT  &kp TAB               &kp BACKSPACE       &kp SPACE      &kp ENTER  &to 2
+&trans  &kp BACKSLASH      &kp PIPE               &kp ASTERISK   &kp EQUAL             &kp MINUS           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans
+&trans  &kp RIGHT_BRACE    &kp DOUBLE_QUOTES      &kp SEMICOLON  &kp LEFT_BRACE        &kp FSLH            &kp UP_ARROW  &kp LEFT      &kp DOWN      &kp RIGHT     &trans        &trans
+&trans  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp SQT        &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET    &kp NUMBER_6  &kp N7        &kp N8        &kp NUMBER_9  &kp N0        &trans
+                                                  &to 2          &kp TAB               &kp BACKSPACE       &kp SPACE     &kp ENTER     &tog 1
             >;
         };
 
@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kt K_MUTE       &kt C_PREVIOUS    &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp F1     &kp F2     &kp F3   &kp F4   &kp DEL           &trans
-&kt C_VOLUME_UP  &kt C_PLAY_PAUSE  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6     &kp F5     &kp F6     &kp F7   &kp F8   &kp RIGHT_BRACE   &trans
-&kt C_VOL_DN     &kt K_NEXT        &trans  &kp N7        &kp N8        &kp N9           &kp F9     &kp F10    &kp F11  &kp F12  &kp LEFT_CONTROL  &trans
-                                           &kp LEFT_ALT  &kp TAB       &kp BACKSPACE    &kp SPACE  &kp ENTER  &to 0
+&kt K_MUTE       &kt C_PREVIOUS    &kp N0  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3     &kp F1     &kp F2     &kp F3   &kp F4   &kp DEL           &trans
+&kt C_VOLUME_UP  &kt C_PLAY_PAUSE  &trans  &kp NUMBER_4      &kp N5        &kp NUMBER_6     &kp F5     &kp F6     &kp F7   &kp F8   &kp RIGHT_BRACE   &trans
+&kt C_VOL_DN     &kt K_NEXT        &trans  &kp N7            &kp N8        &kp N9           &kp F9     &kp F10    &kp F11  &kp F12  &kp LEFT_CONTROL  &trans
+                                           &kp LEFT_CONTROL  &kp LEFT_ALT  &kp BACKSPACE    &kp SPACE  &kp ENTER  &to 0
             >;
         };
     };
