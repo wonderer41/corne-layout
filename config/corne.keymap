@@ -45,7 +45,7 @@
 
             bindings = <
 &trans  &trans  &kp NUMBER_0       &kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3     &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE     &kp LEFT_BRACKET   &kp NON_US_BACKSLASH  &trans
-&trans  &trans  &kp EQUAL          &kp NUMBER_4    &kp NUMBER_5      &kp NUMBER_6     &kp UP_ARROW      &kp LEFT_ARROW         &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp NON_US_BACKSLASH  &trans
+&trans  &trans  &kp EQUAL          &kp NUMBER_4    &kp NUMBER_5      &kp NUMBER_6     &kp UP_ARROW      &kp LEFT_ARROW         &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp MINUS             &trans
 &trans  &trans  &kp DOUBLE_QUOTES  &kp NUMBER_7    &kp NUMBER_8      &kp NUMBER_9     &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp RIGHT_BRACKET  &kp LC(LA(DEL))       &trans
                                    &kp LEFT_SHIFT  &mt LEFT_ALT TAB  &kp BACKSPACE    &kp SPACE         &kp ENTER              &kp RIGHT_CONTROL
             >;
