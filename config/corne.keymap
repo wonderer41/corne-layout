@@ -27,15 +27,15 @@
             #binding-cells = <0>;
             wait-ms = <40>;
             tap-ms = <40>;
-
             bindings =
-                <&macro_press &kp LEFT_ALT>
-                , <&macro_tap &kp TAB>
-                , <&macro_wait_time 2000>
-                , <&macro_release &kp LEFT_ALT>;
-            };
-
-
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp TAB>,
+                <&macro_wait_time 2000>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+        };
     };
 
     keymap {
@@ -79,10 +79,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &kp C_VOLUME_UP  &kp LC(LEFT_SHIFT)  &kp C_PREVIOUS    &kp PAGE_UP      &kp GRAVE      &kp F1     &kp F2            &kp F3   &kp F4   &trans
-&trans  &trans  &kp K_MUTE       &kp LA(CAPS)        &kp CAPS          &kp DEL          &kp LEFT_WIN   &kp F5     &kp F6            &kp F7   &kp F8   &trans
-&trans  &trans  &kp C_VOL_DN     &kp LC(LEFT_ALT)    &kp C_NEXT        &kp PAGE_DOWN    &rotate_apps   &kp F9     &kp F10           &kp F11  &kp F12  &trans
-                                 &kp LEFT_SHIFT      &kp LEFT_CONTROL  &kp SPACE        &kp BACKSPACE  &kp ENTER  &mt LEFT_ALT TAB
+&trans  &trans  &kp C_VOLUME_UP  &kp LC(LEFT_SHIFT)  &kp C_PREVIOUS    &kp PAGE_UP      &kp GRAVE            &kp F1     &kp F2            &kp F3   &kp F4   &trans
+&trans  &trans  &kp K_MUTE       &kp LA(CAPS)        &kp CAPS          &kp DEL          &kp LEFT_WIN         &kp F5     &kp F6            &kp F7   &kp F8   &trans
+&trans  &trans  &kp C_VOL_DN     &kp LC(LEFT_ALT)    &kp C_NEXT        &kp PAGE_DOWN    &alt_tab_short_hold  &kp F9     &kp F10           &kp F11  &kp F12  &trans
+                                 &kp LEFT_SHIFT      &kp LEFT_CONTROL  &kp SPACE        &kp BACKSPACE        &kp ENTER  &mt LEFT_ALT TAB
             >;
         };
 
