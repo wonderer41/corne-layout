@@ -14,14 +14,6 @@
 
 / {
     macros {
-        lattab: lattab {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt LEFT_ALT>, <&macro_press>, <&kp>;
-
-            label = "LATTAB";
-        };
-
         alt_tab_short_hold: alt_tab_short_hold {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
