@@ -3,12 +3,12 @@
  *
  * SPDX-License-Identifier: MIT
  */
-#define MK &mouse_behavior
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#define MK &mouse_behavior
 
 / {
     macros {
@@ -85,10 +85,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans          &trans        &trans        &bt BT_CLR_ALL  &bt BT_NXT    MK MOUSE_BTN2     &trans              MK MOUSE_SCROLL_UP   &trans               &trans  &trans
-&trans  &bt BT_SEL 4    &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1    &bt BT_SEL 0  MK MOUSE_MOVE_UP  MK MOUSE_MOVE_LEFT  MK MOUSE_MOVE_DOWN   MK MOUSE_MOVE_RIGHT  &trans  &trans
-&trans  &trans          &trans        &trans        &trans          &bt BT_CLR    MK MOUSE_BTN1     &trans              MK MOUSE_SCROLL_DOW  &trans               &trans  &trans
-                        &trans        &trans        &trans          &trans        &trans            &trans
+&trans  &trans        &trans        &trans        &bt BT_CLR_ALL  &bt BT_NXT    MK MOUSE_BTN2     &trans              MK MOUSE_SCROLL_UP    &trans               &trans  &trans
+&trans  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1    &bt BT_SEL 0  MK MOUSE_MOVE_UP  MK MOUSE_MOVE_LEFT  MK MOUSE_MOVE_DOWN    MK MOUSE_MOVE_RIGHT  &trans  &trans
+&trans  &trans        &trans        &trans        &trans          &bt BT_CLR    MK MOUSE_BTN1     &trans              MK MOUSE_SCROLL_DOWN  &trans               &trans  &trans
+                      &trans        &trans        &trans          &trans        &trans            &trans
             >;
         };
     };
