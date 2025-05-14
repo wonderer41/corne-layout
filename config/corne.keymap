@@ -19,20 +19,7 @@
             #binding-cells = <0>;
             wait-ms = <2000>;   // 2 seconds between each Tab press
             tap-ms = <50>;      // how long Tab is held
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp TAB>,
-                <&macro_tap>,
-                <&kp TAB>,
-                <&macro_tap>,
-                <&kp TAB>,
-                <&macro_tap>,
-                <&kp TAB>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_ALT>;
+            bindings = <&macro_press>, <&kp LEFT_ALT>, <&macro_tap>, <&kp TAB>;
         };
     };
 
