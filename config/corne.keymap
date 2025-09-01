@@ -56,10 +56,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &kp NUMBER_0  &kp N7          &kp N8            &kp N9          &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE    &kp LEFT_BRACKET   &kp NON_US_BACKSLASH  &trans
-&trans  &trans  &kp EQUAL     &kp NUMBER_4    &kp NUMBER_5      &kp NUMBER_6    &kp UP_ARROW      &kp LEFT_ARROW         &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp SQT               &trans
-&trans  &trans  &kp PLUS      &kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp RIGHT_BRACKET  &kp MINUS             &trans
-                              &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp SPACE       &kp BACKSPACE     &kp ENTER              &mt LEFT_ALT TAB
+&trans  &trans  &kp NUMBER_0  &kp N7          &kp N8            &kp N9          &kp GRAVE             &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp DELETE  &trans
+&trans  &trans  &kp EQUAL     &kp NUMBER_4    &kp NUMBER_5      &kp NUMBER_6    &kp UP_ARROW          &kp LEFT_ARROW   &kp DOWN_ARROW         &kp RIGHT_ARROW    &kp SQT     &trans
+&trans  &trans  &kp PLUS      &kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3    &kp NON_US_BACKSLASH  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp MINUS   &trans
+                              &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp SPACE       &kp BACKSPACE         &kp ENTER        &mt LEFT_ALT TAB
             >;
         };
 
