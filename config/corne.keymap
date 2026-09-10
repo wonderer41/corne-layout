@@ -71,10 +71,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &kp ESCAPE      &kp F8            &kp F9       &kp LC(LS(P))  &kp LC(LS(UP_ARROW))    &kp LS(UP_ARROW)    &kp LA(UP_ARROW)   &kp LC(F)  &trans
-&trans  &trans  &trans  &kp LEFT_ALT    &kp TAB           &kp F6       &kp HOME       &kp LC(PAGE_UP)         &kp END             &kp LC(PAGE_DOWN)  &kp DEL    &trans
-&trans  &trans  &trans  &kp F1          &kp F2            &kp F3       &kp LC(D)      &kp LC(LS(DOWN_ARROW))  &kp LS(DOWN_ARROW)  &kp LA(DOWN)       &kp LC(P)  &trans
-                        &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp SPACE    &kp BACKSPACE  &kp ENTER               &kt LEFT_GUI
+&trans  &trans  &trans  &trans          &trans            &trans          &kp LC(LS(P))  &kp LC(LS(UP_ARROW))    &kp LS(UP_ARROW)    &kp LA(UP_ARROW)   &kp LC(F)  &trans
+&trans  &trans  &trans  &kp LEFT_ALT    &kp TAB           &kp CAPSLOCK    &kp HOME       &kp LC(PAGE_UP)         &kp END             &kp LC(PAGE_DOWN)  &kp DEL    &trans
+&trans  &trans  &trans  &kp ESCAPE      &trans            &trans          &kp LC(D)      &kp LC(LS(DOWN_ARROW))  &kp LS(DOWN_ARROW)  &kp LA(DOWN)       &kp LC(P)  &trans
+                        &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp SPACE       &kp BACKSPACE  &kp ENTER               &kt LEFT_GUI
             >;
         };
 
